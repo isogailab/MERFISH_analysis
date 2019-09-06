@@ -38,9 +38,9 @@ function [words, parameters] = CreateWords(imageData,varargin)
 % -------------------------------------------------------------------------
 defaults = cell(0,3);
 defaults(end+1,:) = {'wordConstMethod', {'commonCentroid','perLocalization'}, 'perLocalization'};
-defaults(end+1,:) = {'binSize', 'positive', 0.25};
-defaults(end+1,:) = {'minDotPerBin', 'nonnegative',1};
-defaults(end+1,:) = {'minLocsPerDot', 'positive',1};
+defaults(end+1,:) = {'binSize', 'positive', 0.5};               % default 0.25
+defaults(end+1,:) = {'minDotPerBin', 'nonnegative',1};          % default 1
+defaults(end+1,:) = {'minLocsPerDot', 'positive',1};            % default 1
 defaults(end+1,:) = {'minArea', 'nonnegative',0};
 defaults(end+1,:) = {'maxArea', 'nonnegative',10};
 defaults(end+1,:) = {'showPlots', 'boolean', false};
