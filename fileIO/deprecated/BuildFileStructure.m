@@ -94,7 +94,7 @@ end
 % -------------------------------------------------------------------------
 % Find files
 % -------------------------------------------------------------------------
-fileData = dir([folderPath '*' parameters.requireFlag '*.' parameters.fileExt]);
+fileData = dir([folderPath '*.' parameters.fileExt]);
 
 % -------------------------------------------------------------------------
 % Exclude files with any of the excluded strings

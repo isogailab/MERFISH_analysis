@@ -66,5 +66,3 @@ MERFISHScheduler;
 PageBreak();
 disp(['...completed in ' num2str(toc(scriptTimer)) ' s']);
 disp(['Completed at ' datestr(now)]);
-
-
