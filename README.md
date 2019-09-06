@@ -1,3 +1,5 @@
+Original README:
+
 # MERFISH_analysis
 This project contains a series of matlab functions for the analysis of MERFISH as described 
 in the publication [*Spatially resolved, highly multiplexed RNA profiling in single cells*](http://www.ncbi.nlm.nih.gov/pubmed/25858977) 
